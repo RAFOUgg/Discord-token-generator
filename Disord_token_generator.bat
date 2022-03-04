@@ -68,7 +68,7 @@ goto :choice
 
 :choice
 echo.
-set /p c=       [40;31mVoulez vous quitter Pinger {Y/N} : 
+set /p c=       [40;31mDo you want to exit {Y/N} : 
 if /I "%c%" EQU "y" goto :q
 if /I "%c%" EQU "n" goto :w
 goto :choice
