@@ -1,6 +1,6 @@
 @echo off
 setlocal enableextensions enabledelayedexpansion
-rem example token : ODQwOTEyOTc5ODAwMzU4OTEy.YJfHPQ.FJupS7wszytD-fIwfSoEISDPrVM
+rem example token : ************************.******.***************************
 
 set "Outfile=Keys.txt"
 if exist Keys.txt goto :error
