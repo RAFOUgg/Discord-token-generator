@@ -31,7 +31,7 @@ if %keys% == 0 (goto:infinity) else (goto:generate)
         )
 :addinf
 set /a "compte+=1"
-echo              [40;32m%compte% keys add...
+echo              [40;32m%compte% tokens add...
 if %compte% == 270000 (goto :infend) else (goto :infinity)
 
 :generate
@@ -49,7 +49,7 @@ if %compte% == 270000 (goto :infend) else (goto :infinity)
 
 :addcompte
 set /a "compte+=1"
-echo              [40;32m%compte% keys add...
+echo              [40;32m%compte% tokens add...
 if %compte% == %keys% (goto :end) else (goto :generate)
 
 :end 
